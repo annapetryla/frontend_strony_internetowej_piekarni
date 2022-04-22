@@ -1,0 +1,284 @@
+.body {
+    --wheat: wheat;
+    margin: 0px;
+}
+
+.container {
+    background-color: lightcoral;
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    min-height: 100vh;
+}
+
+.header-main {
+    background-color: brown;
+    text-align: center;
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.footer {
+    background-color: brown;
+    text-align: center;
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabelka,
+th,
+td {
+    border: 0.5px dotted;
+    border-color: wheat;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.body {
+    font-family: Georgia, 'Times New Roman', Times, serif, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    color: var(--wheat);
+}
+
+.picture {
+    text-align: center;
+    margin: 10px auto 0 auto;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+    -moz-box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+    box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+    max-width: 95%;
+    max-height: 80%;
+    height: auto;
+    width: auto;
+}
+
+.cont_all {
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 2.5%;
+}
+
+.cont_zbior {
+    margin: auto;
+    display: inline-flex;
+    width: 100%;
+}
+
+.cont_list {
+    background-color: #964e02;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.cont_table {
+    background-color: #964e02;
+    border-radius: 10px;
+    width: 95%;
+    text-align: center;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.image-box {
+    background-color: azure;
+    border-radius: 10px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    max-width: 100%;
+    width: auto;
+}
+
+#imgbox1 {
+    width: 650px;
+}
+
+#imgbox2 {
+    width: 550px;
+}
+
+a:visited {
+    color: burlywood;
+}
+
+a:hover {
+    color: coral;
+}
+
+a:link {
+    color: var(--wheat);
+}
+
+a:focus {
+    color: brown;
+}
+
+hr {
+    border-top: 1px dashed pink;
+    border-bottom: 1px dashed pink;
+    width: 80%;
+}
+
+#zegar {
+    width: 300px;
+    height: 50px;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: oldlace;
+    animation: colors 5s infinite;
+}
+
+@keyframes colors {
+    0% {
+        color: chocolate;
+    }
+
+    19% {
+        color: coral;
+    }
+
+    20% {
+        color: wheat;
+    }
+
+    39% {
+        color: palevioletred;
+    }
+
+    40% {
+        color: burlywood;
+    }
+
+    59% {
+        color: bisque;
+    }
+
+    60% {
+        color: beige;
+    }
+
+    79% {
+        color: darkgoldenrod;
+    }
+
+    80% {
+        color: gold;
+    }
+
+    99% {
+        color: goldenrod;
+    }
+
+    100% {
+        color: blanchedalmond;
+    }
+}
+
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 100px;
+    border-radius: 5px;
+    transition: transform .2s;
+}
+
+.open-button:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    border-radius: 5px;
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+.form-container textarea {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+}
+
+.form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+.form-container .btn {
+    background-color: darkgoldenrod;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.form-container .cancel {
+    background-color: rgb(128, 0, 32);
+}
+
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}

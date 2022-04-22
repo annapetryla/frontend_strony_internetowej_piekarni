@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Opis strony">
+  <meta name="keywords" content="HTML, CSS, W3schools">
+  <meta name="author" content="Anna Petryla">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cupcakes by Ania</title>
+  <link rel="shortcut icon" href="Images/babeczka.jpg" />
+  <link rel="stylesheet" media="screen" href="Styles/styl_landing_page.css" />
+  <link rel="stylesheet" media="screen" href="Styles/styl_menu_boczne.css" />
+  <link rel="stylesheet" media="screen" href="Styles/styl_menu_gorne.css" />
+  <link rel="stylesheet" media="screen" href="Styles/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+    crossorigin="anonymous"/>
+</head>
+
+<body class="body">
+  <div class="menu_gorne" id="top_menu_id">
+    <nav class="top-menu" id="top_menu_id_nav">
+      <a href="#menu_home" id="button_home">Dom</a>
+      <a href="#sekcja1" id="button_nowosci">Nowości</a>
+      <a href="#sekcja4" id="button_kontakt">Kontakt</a>
+      <a href="#sekcja2" id="button_about">O stronie</a>
+
+      <div class="div_logo" id="logo_gorne">
+        <a id="logo_prob">Cupcakes by Ania</a>
+      </div>
+    </nav>
+  </div>
+  <div class="side-menu-container">
+    <nav class="side-menu" id="navbar_menu">
+      <a href="#menu_home" id="button_boczny_dom">
+        <div><i class=""></i></div>
+      </a>
+      <a href="#sekcja4" id="button_boczny_contact">
+        <div><i class=""></i></div>
+      </a>
+      <a href="#sekcja1" id="button_boczny_nowosci">
+        <div><i class=""></i></div>
+      </a>
+      <a href="#sekcja2" id="button_boczny_about">
+        <div><i class=""></i></div>
+      </a>
+    </nav>
+  </div>
+  <!--Link do strony z landing page: https://www.pexels.com/photo/cupcakes-on-wooden-tray-near-sweets-and-macaroons-with-blueberries-7525120/ -->
+  <header id="showcase">
+    <h1 class="animate__animated animate__backInDown">Witaj w królestwie babeczek </h1>
+    <p class="showcase_napis">Zapraszam Cię do zainspirowania się przepisami.</p>
+    <a href="#menu_home" class="button">Więcej pyszności</a>
+  </header>
+  <header class="header_menu_gorne" id="menu_home">
+    <div class="sekcja_header">
+      <h2 class="header_menu">Cupcakes by Ania</h2>
+      <p class="header_menu">Posted by Anna Petryla</p>
+    </div>
+  </header>
+  <button class="open-button" onclick="openForm()">Chat</button>
+
+  <div class="chat-popup" id="myForm">
+    <form action="..." class="form-container">
+      <h1>Pytanie?</h1>
+      <textarea placeholder="Wprowadź wiadomość ..." name="msg" required></textarea>
+      <button type="submit" class="btn">Send</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+  <div class="all-divs">
+    <div class="container" id="sekcja1">
+      <div class="image-box" id="imgbox1">
+        <img class="picture" alt="" src="Images/babeczka2.jpg">
+        <img class="picture" alt="" src="Images/babeczka2.jpg">
+        <img class="picture" alt="" src="Images/babeczka2.jpg">
+        <br>
+        <a
+          href="https://media.istockphoto.com/photos/party-cupcake-picture-id184283659?k=6&m=184283659&s=612x612&w=0&h=dnOfPbEJRFA0GVdF1JAnTtAps8ny63z0ZjScfwPG_EQ=">Tutaj
+          link do źródła obrazków </a>
+      </div>
+      <br>
+      <h1 class="header">Nagłowek 1 sekcji 1 czyli Nowości</h1>
+      <p class="section">
+        Lorem ipsum dolor sit amet, om consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, om consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <hr>
+      <h2 class="header">Nagłowek 2 sekcji 1</h2>
+      <p class="section">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum
+        dolor sit amet, om consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <h3 class="header">Nagłowek 3 sekcji 1</h3>
+      <p class="section">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum
+        dolor sit amet, om consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+    <div class="container" id="sekcja2">
+      <hr>
+      <div class="image-box" id="imgbox2">
+        <img class="picture" alt="" id="babeczka_wisnia" src="Images/babeczka.jpg">
+        <br>
+        <a
+          href="https://media.istockphoto.com/photos/cupcake-with-chocolate-icing-and-a-cherry-picture-id153868303?k=20&m=153868303&s=612x612&w=0&h=avB6Z7ENmLbF0_IRoFXgrgTCaO5rFusJUBQaCN2NHf4=">Tutaj
+          link do źródła obrazków </a>
+      </div>
+      <h2 class="header">Nagłowek 1 sekcji 2</h2>
+      <p class="section">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur
+        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem
+        ipsum dolor sit amet, om consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+    <div class="container" id="sekcja3">
+      <hr>
+      <h2 class="header">Nagłowek 1 sekcji 3</h2>
+      <p class="section">
+        <strong>Paragraf z treścią ale pogrubiony : </strong> lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed
+        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation
+        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit
+        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+        officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, om consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        sed
+        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation
+        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit
+        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+        officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, om consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur.
+        Excepteur sint occaecat
+        sed
+        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation
+        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit
+        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+        officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, om consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur.
+        Excepteur sint occaecat
+        sed
+        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation
+        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit
+        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+        officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, om consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur.
+        Excepteur sint occaecat
+        sed
+        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation
+        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit
+        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+        officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, om consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur.
+        Excepteur sint occaecat
+        sed
+        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation
+        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit
+        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+        officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, om consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur.
+        Excepteur sint occaecat
+        sed
+        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation
+        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit
+        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+        officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, om consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur.
+        Excepteur sint occaecat
+      </p>
+    </div>
+    <div class="container" id="sekcja4">
+      <hr>
+      <h2 class="header">Nagłowek 1 sekcji 4</h2>
+      <p class="section">
+        Lorem ipsum dolor sit amet, a tutaj link do stronki :
+        <a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in
+        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, om
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <div class="cont_all">
+        <div class="cont_zbior">
+          <div class="cont_list" id="contlist1">
+            <ul>
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Milk</li>
+              <li>Water</li>
+            </ul>
+          </div>
+          <div class="cont_list" id="contlist2">
+            <ol>
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Milk</li>
+              <li>Water</li>
+            </ol>
+          </div>
+        </div>
+        <div class="cont_table">
+          <p>A poniżej znajduje się tabelka : </p>
+          <table class="tabelka">
+            <tr>
+              <th>Kolumna 1</th>
+              <th>Kolumna 2</th>
+              <th>Kolumna 3</th>
+              <th>Kolumna 4</th>
+            </tr>
+            <tr>
+              <td>Dane 1</td>
+              <td>Dane 2</td>
+              <td>Dane 3</td>
+            </tr>
+            <tr>
+              <td>Dane 2</td>
+              <td>Dane 3</td>
+              <td>Dane 4</td>
+              <td>Dane 5</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>Anna Petryla, II rok ®</p>
+      <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+      <div id="zegar" onload="currentTime()"></div>
+      <script src="zegar.js"></script>
+    </footer>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script>
+    $(document).on('click', 'a[href^="#"]', function (event) {
+      event.preventDefault();
+      $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+      }, 900);
+    });
+  </script>
+  <script>
+    $(window).scroll(function () {
+      $("#navbar_menu").toggleClass("side-menu", document.scrollingElement.scrollTop > 600);
+      $("#top_menu_id").toggleClass("menu_gorne", document.scrollingElement.scrollTop < 600);
+    })
+  </script>
+  <script>
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+  </script>
+  <script>
+    const newspaperSpinning = [
+      { transform: 'rotate(0) scale(1)' },
+      { transform: 'rotate(360deg) scale(0)' }
+    ];
+
+    const newspaperTiming = {
+      duration: 2000,
+      iterations: 1,
+    }
+
+    const newspaper = document.querySelector(".button");
+
+    newspaper.addEventListener('click', () => {
+      newspaper.animate(newspaperSpinning, newspaperTiming);
+    });
+  </script>
+</body>
+
+</html>

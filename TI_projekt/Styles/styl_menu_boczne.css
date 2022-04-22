@@ -1,0 +1,65 @@
+.side-menu-container,
+.side-menu,
+.side-menu>a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+}
+
+.side-menu-container {
+  position: fixed;
+  height: 80vh;
+  left: 0px;
+}
+
+.side-menu>a {
+  margin: 5px 0px;
+  height: 40px;
+  background-color: palevioletred;
+  border-radius: 5px;
+}
+
+.side-menu>a:hover {
+  margin: 5px 0px;
+  height: 40px;
+  color: #fff;
+  background-color: pink;
+}
+
+#button_boczny_dom {
+  background-image: url('../Images/house-solid.svg');
+  transition: all 0.3s;
+  color: transparent;
+  background-size: 50px 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#button_boczny_contact {
+  background-image: url('../Images/phone-solid.svg');
+  transition: all 0.3s;
+  color: transparent;
+  background-size: 50px 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#button_boczny_nowosci {
+  background-image: url('../Images/gripfire-brands.svg');
+  transition: all 0.3s;
+  color: transparent;
+  background-size: 50px 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#button_boczny_about {
+  background-image: url('../Images/paper-plane-solid.svg');
+  transition: all 0.3s;
+  color: transparent;
+  background-size: 50px 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
